@@ -1,0 +1,25 @@
+{
+  "name": "stop-swearing-bot",
+  "version": "0.1.0",
+  "description": "Telegram Bot",
+  "license": "ISC",
+  "author": "Josh Dies",
+  "homepage": "https://github.com/LetItCode/stop-swearing-bot#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LetItCode/stop-swearing-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LetItCode/stop-swearing-bot/issues"
+  },  "scripts": {
+    "dev": "nodemon -w src src/app.js"
+  },
+  "main": "src/app.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "telegraf": "^3.38.0"
+  },
+  "prettier": {
+    "printWidth": 120
+  }
+}
